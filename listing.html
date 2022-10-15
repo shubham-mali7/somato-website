@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somato-ListingPage</title>
+    <link rel="stylesheet" href="listing.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <!-- navigation bar -->
+
+      <div class="logo">s!</div>
+      <div class="options">
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#" id="account">Create an account</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- home section -->
+    <div id="home">
+      <!-- heading -->
+      <div class="heading">Breakfast Places in Mumbai</div>
+      <!-- main boxes -->
+
+      <!-- BOX-1 -->
+
+      <div class="box" id="box-1">
+        <div class="image">
+          <img
+            src="somato-images/idli.png"
+            alt="idli"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div class="hotel" id="royal">The Royal Castle</div>
+        <div class="fort">FORT</div>
+        <div class="adress">Near Bank-Sector2, Plot A, Bandra(West)</div>
+        <hr class="line" />
+        <div class="square">
+          <div class="one">CUISINES</div>
+          <div class="one">COST FOR TWO</div>
+        </div>
+        <div class="square-2">
+          <div class="two">BAKERY</div>
+          <div class="two">&#8377;700</div>
+        </div>
+      </div>
+
+      <!-- experiment -->
+      <div class="box" id="box-0">
+        <div class="image">
+          <img
+            src="somato-images/idli.png"
+            alt="idli"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div class="hotel" id="royal">Maharashtra Ka Swad</div>
+        <div class="fort">FORT</div>
+        <div class="adress">Near Godrej-Park, Street-22, Vikhroli(West)</div>
+        <hr class="line" />
+        <div class="square">
+          <div class="one">CUISINES</div>
+          <div class="one">COST FOR TWO</div>
+        </div>
+        <div class="square-2">
+          <div class="two">BAKERY</div>
+          <div class="two">&#8377;700</div>
+        </div>
+      </div>
+
+      <!-- BOX-2 -->
+      <div class="box" id="box-2">
+        <div class="image">
+          <img
+            src="somato-images/idli.png"
+            alt="idli"
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div class="hotel" id="robin">The Basken Robbins</div>
+        <div class="fort">FORT</div>
+        <div class="adress">Near Shop-1, Plot D, CSMT(East)</div>
+        <hr class="line" />
+        <div class="square">
+          <div class="one">CUISINES</div>
+          <div class="one">COST FOR TWO</div>
+        </div>
+        <div class="square-2">
+          <div class="two">BAKERY</div>
+          <div class="two">&#8377;700</div>
+        </div>
+      </div>
+
+      <!-- aside section -->
+      <div id="aside">
+        <div class="asidebar" id="filters">Filters</div>
+        <div class="facility" id="location">Select Location</div>
+        <!-- DROPDOWN BOX -->
+        <div class="dropdown">
+          <select name="placename" id="placename">
+            <option value="selectlocation">Select Location</option>
+            <option value="CSMT">CSMT</option>
+            <option value="Bandra">Bandra</option>
+            <option value="Juhu">Juhu Chaupati</option>
+            <option value="Andheri">Andheri</option>
+          </select>
+        </div>
+        <div class="facility" id="cuisine">Cuisine</div>
+
+        <!-- form1 for cuisines -->
+        <div id="form1" class="form">
+          <input type="checkbox" id="NIndian" name="NIndian" value="food" />
+          <label for="NIndian" id="label1">North Indian</label>
+          <input
+            type="checkbox"
+            id="SIndian"
+            name="SIndian"
+            value="food"
+            checked
+          />
+          <label for="SIndian" id="label2">South Indian</label>
+          <input
+            type="checkbox"
+            id="Maharashtrian"
+            name="NIndian"
+            value="food"
+            checked
+          />
+          <label for="Maharashtrian" id="label3">Maharashtrian</label>
+          <input type="checkbox" id="Ffood" name="Ffood" value="food" />
+          <label for="Ffood" id="label4">Fast Food</label>
+          <input type="checkbox" id="Sfood" name="Sfood" value="food" />
+          <label for="Sfood" id="label5">Street Food</label>
+        </div>
+        <div class="facility" id="cost">Cost For Two</div>
+
+        <!-- form2 for cost  -->
+        <div id="form2" class="form">
+          <input type="radio" id="cost1" value="price" />
+          <label for="cost1" id="first">Less than 500</label>
+          <input type="radio" id="cost2" value="price" />
+          <label for="cost2" id="second">500 to 1000</label>
+          <input type="radio" id="cost3" value="price" />
+          <label for="cost3" id="third">1000 to 1500</label>
+          <input type="radio" id="cost4" value="price" />
+          <label for="cost4" id="fourth">1500 to 2000</label>
+          <input type="radio" id="cost5" value="price" />
+          <label for="cost5" id="fifth">2000 +</label>
+        </div>
+        <div class="asidebar" id="sort">Sort</div>
+
+        <!-- form3 form Sort with id asideend -->
+        <div id="asideend" class="form">
+          <input type="radio" id="sort-1" value="sorted" />
+          <label for="sort-1" id="lab-1">Price low to high</label>
+          <input type="radio" id="sort-2" value="sorted" />
+          <label for="sort-2" id="lab-2">Price high to low</label>
+        </div>
+      </div>
+      <!-- footer part -->
+      <footer>
+        <div class="pageination">
+          <a href="#">&lt;</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&gt;</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

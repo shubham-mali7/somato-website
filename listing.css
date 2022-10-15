@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* css reset */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fbfbfb;
+  animation: transitionIn 0.75s;
+}
+/*  header section  */
+header {
+  display: flex;
+  height: 80px;
+}
+header::before {
+  background: #ce0505;
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 80px;
+  z-index: -1;
+}
+
+.logo {
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  color: #eb2929;
+  font-size: 33px;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 15px;
+  left: 102px;
+  font-weight: 600;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+}
+.options {
+  position: absolute;
+  left: 990px;
+  top: 29px;
+}
+#account {
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-left: 6px;
+}
+/* home section */
+#home {
+  height: auto;
+  margin-bottom: 25px;
+}
+.heading {
+  position: absolute;
+  top: 117px;
+  left: 113px;
+  height: 51px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #192f60;
+}
+
+/* main boxes */
+.box {
+  width: 794px;
+  height: 291px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+#box-1 {
+  position: absolute;
+  top: 195px;
+  left: 418px;
+}
+#box-2 {
+  position: absolute;
+  top: 520px;
+  left: 418px;
+}
+
+/* experiment */
+#box-0 {
+  position: absolute;
+  top: 850px;
+  left: 418px;
+}
+.image {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+img {
+  border-radius: 20%;
+}
+.hotel {
+  position: absolute;
+  margin-left: 196px;
+  margin-top: 39px;
+  color: #192f60;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.fort {
+  position: absolute;
+  margin-top: 87px;
+  margin-left: 201px;
+  color: #192f60;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.adress {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: 201px;
+  color: #636f88;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.square {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -85px;
+  color: #636f88;
+  font-size: 16px;
+  font-weight: 400;
+}
+.square-2 {
+  position: absolute;
+  margin-top: -85px;
+  margin-left: 216px;
+  color: #192f60;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.line {
+  position: relative;
+  margin-top: 176px;
+  margin-left: 35px;
+  margin-right: 32.63px;
+  margin-bottom: 115px;
+  font-size: 1px;
+  border: 1px solid #dedfe5;
+}
+/* aside section */
+#aside {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  height: 682px;
+  width: 260px;
+  display: flex;
+  position: absolute;
+  top: 195px;
+  left: 113px;
+  flex-direction: column;
+}
+#filters {
+  position: absolute;
+  left: 26px;
+  top: 17px;
+}
+#sort {
+  position: absolute;
+  left: 26px;
+  top: 561px;
+}
+.asidebar {
+  color: #192f60;
+  font-size: 18px;
+  font-weight: 600;
+}
+#location {
+  position: absolute;
+  top: 52px;
+  left: 27px;
+}
+#cuisine {
+  position: absolute;
+  top: 140px;
+  left: 27px;
+}
+#cost {
+  position: absolute;
+  top: 349px;
+  left: 27px;
+}
+.facility {
+  color: #192f60;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* DROPDOWN BOX CSS */
+.dropdown {
+  width: 208px;
+  height: 35px;
+  position: absolute;
+  margin-top: 83px;
+  margin-left: 27px;
+}
+#placename {
+  width: 208px;
+  height: 35px;
+  color: #8c96ab;
+  border-radius: 3px;
+}
+input {
+  color: #3a5075;
+  width: 18px;
+  height: 18px;
+}
+
+.form #NIndian {
+  position: absolute;
+  top: 175px;
+  left: 27px;
+}
+.form #SIndian {
+  position: absolute;
+  top: 207px;
+  left: 27px;
+}
+.form #Maharashtrian {
+  position: absolute;
+  top: 239px;
+  left: 27px;
+}
+.form #Ffood {
+  position: absolute;
+  top: 271px;
+  left: 27px;
+}
+.form #Sfood {
+  position: absolute;
+  top: 303px;
+  left: 27px;
+}
+label {
+  height: 20px;
+  font-size: 14px;
+  color: #8c96ab;
+  font-weight: 400;
+}
+#label1 {
+  position: absolute;
+  top: 175px;
+  left: 56px;
+}
+#label2 {
+  position: absolute;
+  top: 207px;
+  left: 56px;
+}
+#label3 {
+  position: absolute;
+  top: 239px;
+  left: 56px;
+}
+#label4 {
+  position: absolute;
+  top: 271px;
+  left: 56px;
+}
+#label5 {
+  position: absolute;
+  top: 303px;
+  left: 56px;
+}
+
+/* Form2 css starts here */
+#cost1 {
+  position: absolute;
+  top: 384px;
+  left: 27px;
+}
+#cost2 {
+  position: absolute;
+  top: 416px;
+  left: 27px;
+}
+#cost3 {
+  position: absolute;
+  top: 448px;
+  left: 27px;
+}
+#cost4 {
+  position: absolute;
+  top: 480px;
+  left: 27px;
+}
+#cost5 {
+  position: absolute;
+  top: 512px;
+  left: 27px;
+}
+#first {
+  position: absolute;
+  top: 384px;
+  left: 56px;
+}
+#second {
+  position: absolute;
+  top: 416px;
+  left: 56px;
+}
+#third {
+  position: absolute;
+  top: 448px;
+  left: 56px;
+}
+#fourth {
+  position: absolute;
+  top: 480px;
+  left: 56px;
+}
+#fifth {
+  position: absolute;
+  top: 512px;
+  left: 56px;
+}
+
+/* aside-end */
+#sort-1 {
+  position: absolute;
+  top: 601px;
+  left: 27px;
+}
+#sort-2 {
+  position: absolute;
+  top: 633px;
+  left: 27px;
+}
+#lab-1 {
+  position: absolute;
+  top: 601px;
+  left: 56px;
+}
+#lab-2 {
+  position: absolute;
+  top: 633px;
+  left: 56px;
+}
+
+/* footer */
+.pageination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 1085px;
+  margin-left: 500px;
+}
+.pageination a {
+  text-decoration: none;
+  padding: 3px 7px;
+  color: #8c96ab;
+  width: 36px;
+  height: 36px;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0px 4px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 20px;
+}
+a.active {
+  background-color: #8c96ab;
+  color: white;
+  border: 1px solid #8c96ab;
+}
+
+a:hover:not(.active) {
+  background-color: #ed8b8beb;
+  color: white;
+}
+
+/* CSS FOR PAGE TRANSITION */
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX("-10deg");
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX("0");
+  }
+}
